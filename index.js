@@ -20,7 +20,7 @@ const app = express();
 
 //DEFINIR PUERTO 
 const host = process.env.HOST || '0.0.0.0';
-const port = process.env.port || 8000;
+const port = process.env.PORT || 3000;
 
 //AGREGAR BODY PARSER PARA LEER DATOS DEL FORMULARIO
 
